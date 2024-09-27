@@ -1,0 +1,26 @@
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header .container .row #slider
+{
+    width:100%;
+    height:10%;
+    margin:0 auto;
+    align-items: center;
+}
+.spacer
+{
+    height:150px;
+}
+.invitation-bg
+    {
+      background: linear-gradient(to bottom right, rgba(0,0, 0,0.8 ),rgba(0, 0, 0,0.8 )) , url('../Documents/Downloads/Invitation.jpg') center center no-repeat;
+      background-size:cover;
+      }
+@media(max-width:992px)
+{
+    .navbar{
+        background: var(--bs-dark);
+    
+    }
+}
